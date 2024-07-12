@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ContactForm from './Contact';
-import ContactList from './ContactList';
-import FilterContacts from './FilterContacts';
+import ContactForm from './Contact/Contact';
+import ContactList from './ContactList/ContactList';
+import FilterContacts from './FilterContact/FilterContacts';
 
 class App extends Component {
   state = {
